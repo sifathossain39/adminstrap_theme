@@ -2,6 +2,10 @@ body{
   background: #f4f4f4;
 }
 
+h1{
+  font-size:1.5rem;
+}
+
 
 
 /* -----------------Navigation bar ---------------- */
@@ -29,3 +33,39 @@ body{
   background-color: #c0392b;
 }
 /* -------------x----Navigation bar -----x----------- */
+
+/*----------------- Header Section -------------------*/
+  #header{
+    background: #333333;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  #header .create{
+    padding-top: 20px;
+  }
+  #header .container{
+    padding-top: 15px;
+  }
+  .gear-icon{
+    margin-bottom: 5px;
+  }
+
+/*------x--------- Header Section -----------x--------*/
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav >.active > a{
+    background-color: transparent;
+  }
+  .navbar .navbar-nav .navbar-right{
+    margin: 0;
+  }
+}
