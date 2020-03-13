@@ -52,6 +52,16 @@ h1{
   }
 
 /*------x--------- Header Section -----------x--------*/
+/*------------------ breadcrumb ---------------------*/
+  .breadcrumb{
+    background: #cccccc;
+    padding: 4px 4px;
+    font-size: 1rem;
+    color: #333333;
+  }
+
+/*----------x-------- breadcrumb ----------x-----------*/
+
 
 
 
