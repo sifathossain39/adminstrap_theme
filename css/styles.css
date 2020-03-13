@@ -1,0 +1,31 @@
+body{
+  background: #f4f4f4;
+}
+
+
+
+/* -----------------Navigation bar ---------------- */
+
+.navbar{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 33px !important;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar-nav> li > a{
+  padding-top: 6px !important;
+  padding-bottom:0 !important;
+  height: 33px;
+}
+.navbar .navbar-brand{
+  margin: 0 25px;
+}
+
+.navbar .navbar-nav .navbar-right{
+  margin: 0 25px;
+}
+.navbar .navbar-nav >.active > a{
+  background-color: #c0392b;
+}
+/* -------------x----Navigation bar -----x----------- */
