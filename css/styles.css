@@ -64,8 +64,8 @@ h1{
  
 /*--------------------- Main Section ------------------------*/
 
-  #main .pr-bar{
-    margin: 20px 15px;
+  #main .bg-danger{
+    color: #f4f4f4;
   }
 
 
