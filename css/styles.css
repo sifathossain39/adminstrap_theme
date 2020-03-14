@@ -68,7 +68,25 @@ h1{
     color: #f4f4f4;
   }
 
+  #main .col-set{
+    padding: 0;
+  }
+  #main .card-body{
+    text-align: center;
+    padding: 20px 12px;
+  }
 
+  #main .card-right{
+    padding-right: 16px;
+  }
+  #main .card-left{
+    padding-left: 16px;
+  }
+
+  #main .jumbotron{
+    padding: 16px 0;
+    margin-bottom: 0;
+  }
 /*--------x------------ Main Section -------------x----------*/
 
 
