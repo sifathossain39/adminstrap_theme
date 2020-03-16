@@ -15,6 +15,9 @@
   <!-- custom css -->
   <link rel="stylesheet" href="./css/styles.css">
 
+  <!--------------- cdn ckeditor -------------------->
+  <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+
 </head>
 
 <body>
@@ -205,19 +208,19 @@
                   <td>Jan 18, 2017</td>
                 </tr>
                 <tr>
-                  <td>Rajib Ahamed</td>
-                  <td>rejabul3001@gmail.com</td>
-                  <td>Dec 3, 2016</td>
+                <tr>
+                  <td>Md Ashiqul Islam</td>
+                  <td>ashiqul22@gmail.com</td>
+                  <td>Jan 30, 2017</td>
+                </tr>
+                <td>Rajib Ahamed</td>
+                <td>rejabul3001@gmail.com</td>
+                <td>Dec 3, 2016</td>
                 </tr>
                 <tr>
                   <td>Shefat Hossain</td>
                   <td>sit.hossain39@gmail.com</td>
                   <td>Jul 18, 2019</td>
-                </tr>
-                <tr>
-                  <td>Md Ashiqul Islam</td>
-                  <td>ashiqul22@gmail.com</td>
-                  <td>Jan 30, 2017</td>
                 </tr>
                 <tr>
                   <td>Fahim Faisel</td>
@@ -259,7 +262,7 @@
             </div>
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Page Body</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"
+              <textarea name="editor1" class="form-control" id="exampleFormControlTextarea1" rows="2"
                 placeholder="Page Body"></textarea>
             </div>
             <div class="form-check page-form-check">
@@ -292,6 +295,15 @@
   <!------------x---------- Models ------------x--------------->
 
 
+
+
+
+
+
+  <!----------- CKEDITOR SCRIPT --------------------------->
+  <script>
+    CKEDITOR.replace('editor1');
+  </script>
 
   <!-------------------------- Bootstrap core javascript ------------------------------>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
