@@ -1,5 +1,5 @@
 body{
-  background: #f4f4f4;
+  background: #e0dede;
 }
 
 h1{
@@ -11,6 +11,7 @@ h1{
 /* -----------------Navigation bar ---------------- */
 
 .navbar{
+  background-color: #162447;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   min-height: 33px !important;
@@ -24,20 +25,21 @@ h1{
 }
 .navbar .navbar-brand{
   margin: 0 25px;
+  padding: 0px;
 }
 
 .navbar .navbar-nav .navbar-right{
   margin: 0 25px;
 }
-.navbar .navbar-nav >.active > a{
-  background-color: #c0392b;
+.navbar .navbar-nav >.active{
+  background-color: #111b36;
 }
 /* -------------x----Navigation bar -----x----------- */
 
 /*----------------- Header Section -------------------*/
   #header{
-    background: #333333;
-    color: #ffffff;
+    background: #fcfcfc;
+    color: #000000;
     padding-bottom: 10px;
     margin-bottom: 15px;
   }
@@ -67,6 +69,18 @@ h1{
   #main .bg-danger{
     color: #f4f4f4;
   }
+  #main .list-group > .active{
+    background-color: #162447;
+    border-color: #162447;
+  }
+  #main .list-group .gear-icon{
+    color: #cccccc;
+  }
+
+  #main .card-header{
+    background-color: #162447;
+    color: #ffffff;
+  }
 
   #main .col-set{
     padding: 0;
@@ -88,8 +102,24 @@ h1{
     margin-bottom: 0;
   }
 
+  #main .jumbotron .progress .progress-bar{
+    background-color: #162447;
+  }
+
   #main .user-card{
     margin-top: 16px;
+  }
+
+  #main table .button-bg{
+    background-color:#162447;
+    color: #ffffff;
+  }
+
+  #main table .button-bg:hover{
+    background-color:transparent;
+    color: #000000;
+    border-radius: 4px;
+    border-color: #363434;
   }
 /*--------x------------ Main Section -------------x----------*/
 
@@ -108,11 +138,14 @@ h1{
 
   /*-------------------- Footer -----------------------------*/
   #footer{
-    background-color: #333333;
+    background-color: #162447;
     color: #ffffff;
     text-align: center;
-    padding: 30px;
+    padding: 24px;
     margin-top: 30px;
+  }
+  #footer p{
+    margin: 0;
   }
 
 /*------------------------ Modal ------------------------------*/
